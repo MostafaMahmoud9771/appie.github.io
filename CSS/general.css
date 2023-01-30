@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #0e1133;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(255, 63, 101, 0.15);
+}
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+}
+
+.heading-secondary-paragraph {
+  font-size: 1.8rem;
+  color: #495057;
+  line-height: 1.4;
+}
+
+.how-it-works-grid-icon {
+  height: 2rem;
+  width: 2rem;
+  color: #fff;
+  fill: #fff;
+  padding: 1.6rem;
+  border-radius: 50%;
+  margin-bottom: 2.4rem;
+}
+
+.heading-tertiary {
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.heading-tertiary-paragraph {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: #495057;
+  margin-bottom: 2.4rem;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: bold;
+}
